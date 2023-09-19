@@ -1,4 +1,5 @@
 /node_modules/
+/public/css/output.css
 
 ###> symfony/framework-bundle ###
 /.env.local
