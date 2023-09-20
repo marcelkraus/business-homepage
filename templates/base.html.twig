@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Marcel Kraus [ iOS-Entwicklerm, Schrauber, Nerd ]{% endblock %}</title>
+        <title>{% block title %}Marcel Kraus [ iOS-Entwickler, Schrauber, Nerd ]{% endblock %}</title>
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
         {% block stylesheets %}
             <link href="css/output.css" rel="stylesheet">
@@ -11,7 +11,7 @@
     </head>
     <body>
         {% block body %}
-            <div class="h-screen w-screen flex justify-center items-center">
+            <div class="container mx-auto my-8">
                 {% block container %}{% endblock %}
             </div>
         {% endblock %}

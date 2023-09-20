@@ -1,13 +1,22 @@
 {% extends 'base.html.twig' %}
 
 {% block container %}
-    <div class="p-6 max-w-sm mx-auto bg-white rounded-xl flex shadow-lg items-center space-x-4">
-        <div class="shrink-0">
-            <img class="h-12 w-12 rounded-full" src="https://www.marcelkraus.de/wp-content/uploads/2022/09/marcel-kraus-avatar-150x150.jpg" alt="ChitChat Logo">
+    <p class="prose prose-2xl my-4 max-w-none">Seit 2003 mache ich <em>Internet</em>. Seit 2017 auch <em>iOS</em>. Und seit irgendwann dazwischen <em>den Rest</em>.</p>
+    <div class="flex gap-4 text-center">
+        <div class="w-1/3 bg-[#E9BCAF] p-4 prose">
+            <h2 class="text-white">Software-Entwicklung</h2>
+            <p class="text-white">Web- und iOS —<br/>für Privat und Gewerbe.</p>
+            <a class="text-white" href="#" role="button">Let's print</a>
         </div>
-        <div>
-            <div class="text-xl font-medium text-black">Hello World.</div>
-            <p class="text-slate-500">Here be dragons (soon).</p>
+        <div class="w-1/3 bg-[#A1B0B2] p-4 prose">
+            <h2 class="">Fahrzeug-Vermietung</h2>
+            <p>Ein besonderer Jeep —<br/>für besondere Anlässe.</p>
+            <a href="#" role="button">Let's print</a>
+        </div>
+        <div class="w-1/3 bg-[#662c91] p-4 prose">
+            <h2 class="text-white">3D-Druck</h2>
+            <p class="text-white">Du hast die Vision —<br/>ich mache sie greifbar.</p>
+            <a class="text-white" href="#" role="button">Let's print</a>
         </div>
     </div>
 {% endblock %}
